@@ -6,7 +6,7 @@ Este es un Sidebar creado con React y styled-components, que muestra mis habilid
 
 ## Demo
 
-<img src="./sideBar.JPG" alt="Modo Oscuro" width="1080"/>
+<img src="./sideBarB.JPG" alt="Modo Oscuro" width="1080"/>
 
 
 También puede consultar la demostración en vivo. [Aquí](https://palaciosf416.github.io/Sidebar/).
