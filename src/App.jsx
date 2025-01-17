@@ -20,7 +20,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ setTheme, theme }}>
       <ThemeProvider theme={themeStyle}>
-        <BrowserRouter basename="/Sidebar">
+        <BrowserRouter>
           <Container className={sidebarOpen ? "sidebarState active" : ""}>
             <Sidebar
               sidebarOpen={sidebarOpen}
