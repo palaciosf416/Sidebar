@@ -23,8 +23,7 @@ import { Administracion } from "../pages/Administracion";
 
 export function MyRoutes() {
   return (
-   
-     
+    <BrowserRouter>
       <Routes>
         {/* Inicio */}
         <Route path="/" element={<Home />} />
@@ -55,6 +54,7 @@ export function MyRoutes() {
         <Route path="/administracion" element={<Administracion/>} />
 
       </Routes>
+    </BrowserRouter>
     
   );
 }
