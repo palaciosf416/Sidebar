@@ -14,8 +14,8 @@ import { Remodelacion } from "../pages/Remodelacion";
 import { Cierres } from "../pages/Cierres";
 import { Extras } from "../pages/Extras";
 
-import {Salidas} from "../pages/Salidas";
-import {Enviado} from "../pages/Enviado";
+import { Salidas } from "../pages/Salidas";
+import { Enviado } from "../pages/Enviado";
 
 import { Llamadas } from "../pages/Llamadas";
 import { Unidad } from "../pages/Unidad";
@@ -23,20 +23,20 @@ import { Administracion } from "../pages/Administracion";
 
 export function MyRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Sidebar">
       <Routes>
         {/* Inicio */}
         <Route path="/" element={<Home />} />
         
         {/* Geografia */}
-        <Route path="/niebla" element={<Niebla/>} />
+        <Route path="/niebla" element={<Niebla />} />
         <Route path="/preventivos" element={<Preventivos />} />
 
-         {/* Expansion */}
-         <Route path="/aperturas" element={<Aperturas />} />
-         <Route path="/remodelacion" element={<Remodelacion />} />
-         <Route path="/cierres" element={<Cierres />} />
-         <Route path="/extras" element={<Extras />} />            
+        {/* Expansion */}
+        <Route path="/aperturas" element={<Aperturas />} />
+        <Route path="/remodelacion" element={<Remodelacion />} />
+        <Route path="/cierres" element={<Cierres />} />
+        <Route path="/extras" element={<Extras />} />            
 
         {/* Componentes */}
         <Route path="/salidas" element={<Salidas />} />
@@ -51,10 +51,8 @@ export function MyRoutes() {
 
         <Route path="/llamadas" element={<Llamadas />} />
         <Route path="/unidad" element={<Unidad />} />        
-        <Route path="/administracion" element={<Administracion/>} />
-
+        <Route path="/administracion" element={<Administracion />} />
       </Routes>
     </BrowserRouter>
-    
   );
 }
