@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Preventivos } from "../pages/Preventivos";
 import { Niebla } from "../pages/Niebla";
@@ -23,7 +23,6 @@ import { Administracion } from "../pages/Administracion";
 
 export function MyRoutes() {
   return (
-    <BrowserRouter basename="/Sidebar">
       <Routes>
         {/* Inicio */}
         <Route path="/" element={<Home />} />
@@ -53,6 +52,5 @@ export function MyRoutes() {
         <Route path="/unidad" element={<Unidad />} />        
         <Route path="/administracion" element={<Administracion />} />
       </Routes>
-    </BrowserRouter>
   );
 }
