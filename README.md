@@ -6,13 +6,10 @@ Este es un Sidebar creado con React y styled-components, que muestra mis habilid
 
 ## Demo
 
-### Modo Oscuro
-<img src="./calculadoraDark.JPG" alt="Modo Oscuro" width="1080"/>
+<img src="./sideBar.JPG" alt="Modo Oscuro" width="1080"/>
 
-### Modo Claro
-<img src="./calculadoraLight.JPG" alt="Modo Claro" width="1080"/>
 
-También puede consultar la demostración en vivo. [Aquí](https://palaciosf416.github.io/calculadora/).
+También puede consultar la demostración en vivo. [Aquí](https://palaciosf416.github.io/Sidebar/).
 
 ## Características
 
