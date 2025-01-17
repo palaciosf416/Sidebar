@@ -75,7 +75,7 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
               <NavLink to="/">
                   <div className="imgcontent">
                       <img src={logo} />
-                      <h2>Portafolio</h2>
+                      <h2>Dashboard</h2>
                   </div>
               </NavLink>
           </div>
